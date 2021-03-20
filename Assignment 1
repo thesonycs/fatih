@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<img src="C:\Users\EliFatih\Desktop\Çizim ve Yazılım\Yazılımlar\HTML\hello/Adsız.png" alt="Image is not available">
+	<title>My Website</title>
+</head>
+
+
+<body>
+	<br>
+	<a href="https://www.google.com/">Go to Main Page</a>
+	<h3>Blog Post One</h3>
+	<h5>Posted by Ruslana on March 10</h5>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<a href="">Read More</a>	
+		<h3>Blog Post Two</h3>
+	<h5>Posted by Ruslana on March 9</h5>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<a href="">Read More</a>
+	<h2>Categories</h2>
+	<ul>
+		<li><a href="">Category 1</a></li>
+		<li><a href="">Category 2</a></li>
+		<li><a href="">Category 3</a></li>
+	</ul>
+	<p> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Copyright© 2021, My Website</p>
+
+
+	<h2> RESGISTRATION FORM</h2>
+	<form>
+		<form action="process.php" method="Post">
+			<div>
+				<label>First Name</label>
+				<input type="text" name="first_Name" placeholder="Please enter your first name">
+			</div>
+			<div>
+				<label>Middle Name*</label>
+				<input type="text" name="middle_Name" placeholder="Please enter your middle name">
+				<p><em>* if you don't have middle name skip that.</em></p>
+			</div>
+			<div>
+				<label>Surname</label>
+				<input type="text" name="surname" placeholder="Please enter your surname">
+			</div>
+			<div>
+			<label>E-mail</label>
+			<input type="Email" name="email">
+		</div>
+			<div>
+				<label>Age</label>
+				<input type="number" name="age" value= 25 placeholder="Please enter your age">
+			</div>
+			<div>
+				<label>Birthday</label>
+				<input type="date" name="birthday">
+			</div>
+			<div>
+				<label>Birthplace</label>
+				<input type="text" name="birthplace" placeholder="Please enter your birthplace">
+			</div>
+			<div>
+				<label>Are you a student?</label>
+				<select name="student_question">
+					<option value="Yes">Yes</option>
+					<option value="No">No</option>
+					
+				</select>
+			</div>
+			<img src="C:\Users\EliFatih\Desktop\Çizim ve Yazılım\Yazılımlar\HTML\hello/robot.png" alt="Image is not available" width="150">
+			<div>
+				<label>Please confirm that you are a human</label>
+				<input type="text" name="human_Test" placeholder="Enter the code on above">
+			</div>
+			<p><strong>Please control your information before send them</strong></p>
+			<p>For complete the registration please click the button below</p>
+			<input type="submit" name="submit" value="Complete the registration">
+	</form>
+<img src="C:\Users\EliFatih\Desktop\Çizim ve Yazılım\Yazılımlar\HTML\hello/dodle.png" alt="Image is not available" width="300">
+</body>
+</html>
